@@ -11,7 +11,7 @@ db = SQLAlchemy()
 app = Flask(__name__)
 # configure the SQLite database, relative to the app instance folder
 # app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///market-place.db'
-app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL')
+app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL', 'sqlite:///market-place.db')
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 # app.config['SECRET_KEY'] = os.environ['app_config_key']
 app.config['SECRET_KEY'] = os.environ.get('app_config_key')
