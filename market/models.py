@@ -62,7 +62,7 @@ class Item(db.Model):
         db.session.commit()
 
 
-# with app.app_context():
-#     # to delete database and information there
-#     # db.drop_all()
-#     db.create_all()
+with app.app_context():
+    # to delete database and information there
+    db.drop_all()
+    db.create_all()
