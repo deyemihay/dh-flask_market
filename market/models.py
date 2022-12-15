@@ -63,36 +63,6 @@ class Item(db.Model):
 
 
 with app.app_context():
-    # items = Item(
-    #     name=input('Enter item name: '),
-    #     barcode=input('Enter barcode: '),
-    #     price=int(input('Enter item price: ')),
-    #     description=input('Enter description: '),
-    # )
-    # db.session.add(items)
-    # db.session.commit()
-    # u1 = User(username='jjc', password_hash=123456, email_address='jjc@jjc.com')
-    # db.session.add(u1)
-    # db.session.commit()
     # to delete database and information there
     # db.drop_all()
-    # items = Item(
-    #     name='Laptop',
-    #     barcode='736479012536',
-    #     price=720,
-    #     description='sleek',
-    # )
-    # db.session.add(items)
-    # db.session.commit()
-    # all_ = User.query.all()
-    # print(all_)
-    # all__ = Item.query.all()
-    # print(all__)
-    # item1 = User.query.filter_by(username='jjc').first()
-    # print(item1)
-    # item1.owner = User.query.filter_by(username='jjc').first().id
-    # db.session.add(item1)
-    # db.session.commit()
-    # item1_o = item1.owner
-    # print(item1_o)
     db.create_all()
