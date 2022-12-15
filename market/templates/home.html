@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block title %} Welcome to DH Flask Market {% endblock %}
+
+{% block content %}
+<div class="container-fluid">
+    <div class="row mt-5">
+        <div class="col-sm-12 col-lg-6 pt-5 text-center">
+            <img class="market-home img-fluid" src="{{ url_for('static', filename='img/market.png') }}" alt="market">
+        </div>
+        <div class="col pt-5">
+            <h1 class="intro-headline">DH <br> Flask Market</h1>
+            <p class="start-purchasing">Start purchasing products by <br> clicking the link below</p>
+            <br>
+            <a type="button" class="btn btn-primary btn-lg" href="{{ url_for('market') }}">Get Started</a>
+        </div>
+    </div>
+</div>
+{% endblock %}

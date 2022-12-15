@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../angelaDaysofCode/cafe-api-start/.idea/cafe-api-start.iml" filepath="$PROJECT_DIR$/../angelaDaysofCode/cafe-api-start/.idea/cafe-api-start.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../angelaDaysofCode/cafe_api_start/.idea/cafe_api_start.iml" filepath="$PROJECT_DIR$/../angelaDaysofCode/cafe_api_start/.idea/cafe_api_start.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/flask_market.iml" filepath="$PROJECT_DIR$/.idea/flask_market.iml" />
+    </modules>
+  </component>
+</project>
