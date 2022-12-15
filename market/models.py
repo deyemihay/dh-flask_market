@@ -63,6 +63,4 @@ class Item(db.Model):
 
 
 with app.app_context():
-    # to delete database and information there
-    db.drop_all()
     db.create_all()
